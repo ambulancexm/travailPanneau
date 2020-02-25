@@ -4,7 +4,7 @@ Measuring Current Using ACS712
 const int analogIn = A0;
 const int voltIn = A1;
 const int luxIn = A2;
-static int totalSec =0;
+static long totalSec =0;
 static long totalWatt =0;
 int mVperAmp = 100; // use 100 for 20A Module and 66 for 30A Module
 int RawValue= 0;
