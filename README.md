@@ -14,3 +14,8 @@ Ampère sur A0
 volt sur A1
 lumière sur A2
 
+cet ensemble doit juste servir de terminal de capture de données
+impossible de garder des données à long terme sur un arduino
+
+les prochains essais se feront avec un wemos R1 avec wifi intégré et
+un serveur websocket sur nodejs
